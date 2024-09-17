@@ -1,5 +1,5 @@
 import streamlit as st
-from llama_index import SimpleDirectoryReader, ServiceContext, VectorStoreIndex
+# from llama_index import SimpleDirectoryReader, ServiceContext, VectorStoreIndex
 from llama_index.llms import LlamaCPP
 from llama_index.llms.llama_utils import messages_to_prompt, completion_to_prompt
 from langchain.schema import (SystemMessage, HumanMessage, AiMessage)
